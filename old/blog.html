@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  </head>
+<body>
+
+    <div class="container-fluid">
+      <div class="row"> 
+        <div class="col-md-12"> 
+
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Accueil</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Nourriture </a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Sport</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Sommeil</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            A propos
+                  </a>
+
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Contact</a>
+                    <a class="dropdown-item" href="#">L'équipe</a>
+                  <div class="dropdown-divider"></div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+       </div>
+      </div>
+      <div class="row"> 
+        <div class="offset-5"></div>
+        <h2>Photos : cliquez pour les voir en grand <span class="badge badge-secondary"></span></h2>
+      </div>
+      <br />
+      <br />
+      <div class="row"> 
+        <div class="offset-5"></div>
+        <div class="col-md-5"> 
+            <ul class="list-unstyled">
+                <li class="media">
+                  <img src="/old/img/nourriture.jpg" class="mr-3" alt="...">
+                
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-1">Premier repas de la journée :</h5>
+                    Petit déjeuner à base de légumes et fruits frais.
+                  </div>
+                </li>
+                <li class="media my-4">
+                  <img src="/old/img/sport.jpg"  class="mr-3" alt="...">
+                  <div class="caption" onclick="view('sport.png')"></div>
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-1">Petit footing du matin :</h5>
+                    7km en bord de mer avec un petit vent d'ouest.
+                  </div>
+                </li>
+                <li class="media">
+                  <img src="/old/img/nourriture.jpg" class="mr-3" alt="...">
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-1">La journée qui commence :</h5>
+                    Réveil à 7h15 de bon pied et en route pour une nouvelle journée bien chargée.
+                  </div>
+                </li>
+                <li class="media">
+                    <img src="/old/img/photos.jpg" class="mr-3" alt="...">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">Shooting photos :</h5>
+                      Pause de midi en campagne pour capturer la nature avec mon appareil.
+                    </div>
+                  </li>
+            </ul>
